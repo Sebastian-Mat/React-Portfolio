@@ -1,0 +1,103 @@
+.contact {
+  background-color: rgb(37, 37, 37);
+  width: 100%;
+  margin: 0 !important;
+  height: 100vh;
+}
+.contact-info {
+  width: 100%;
+  margin: 0!important;
+  height: 100%;
+  padding: 0% 12% !important;
+}
+.text {
+  color: rgb(173, 173, 173) !important;
+  font-size: 14px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.text p {
+  width: 80%;
+  margin: 0 !important;
+}
+.form {
+  color: rgb(173, 173, 173) !important;
+  text-align: center;
+  margin: 0 !important;
+  font-size: 14px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.input {
+  background-color: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  border-bottom: 1px rgb(173, 173, 173) solid !important;
+  transition: 0.2s;
+  outline: none !important;
+  box-shadow: none !important;
+  text-align: center;
+  color: white !important;
+}
+
+.input:focus {
+  border-bottom: 2px rgba(251, 255, 0, 0.76) solid !important;
+  transition: 0.2s;
+}
+.form-label {
+  transition: 0.2s;
+}
+.input:focus ~ .form-label {
+  color: rgba(251, 255, 0, 0.76) !important;
+  transition: 0.2s;
+}
+button {
+  background-color: transparent !important;
+  border: 2px rgba(251, 255, 0, 0.76) solid !important;
+  color: rgba(251, 255, 0, 0.76) !important;
+  outline: none !important;
+  box-shadow: none !important;
+  transition: 0.2s;
+  margin-top: 20px !important;
+}
+button:hover {
+  background-color: rgba(251, 255, 0, 0.76) !important;
+  color: white !important;
+  transition: 0.2s;
+}
+
+@media screen and (max-width: 991px) {
+  .contact {
+    height: auto;
+    padding: 15%;
+  }
+  .contact-info {
+    height: auto;
+  }
+  .text {
+    font-size: 1.7vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px !important;
+  }
+  .text p {
+    width: 100%;
+    margin-bottom: 20% !important;
+    margin-top: 50px !important;
+  }
+  .form {
+    font-size: 1.7vw;
+  }
+  button{
+    font-size: 1.7vw!important;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .contact{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
